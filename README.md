@@ -9,8 +9,11 @@ saltam, empilham e sobem.
 
 ## Instalar
 
-Copie esta pasta para `World of Warcraft\_forever_\Interface\AddOns\MapleHits` (o nome da pasta tem que ser
-`MapleHits`; se baixou o zip, renomeie `MapleHits-main`).
+Baixe `MapleHits.zip` em [Releases](https://github.com/hberdu/MapleHits/releases/latest) e extraia dentro de
+`World of Warcraft\_forever_\Interface\AddOns`. Tem que ficar `AddOns\MapleHits\MapleHits.toc`.
+
+O "Download ZIP" do botão Code gera `MapleHits-main` (e o Windows às vezes cria `MapleHits-main\MapleHits-main`): o
+WoW não lista assim. Renomeie a pasta que tem o `.toc` para `MapleHits` e coloque direto em `AddOns`.
 
 ## Comandos
 
@@ -22,4 +25,5 @@ Sem arte do jogo: os dígitos são desenhados a partir da fonte Bowlby One (SIL 
 `OFL-BowlbyOne.txt`) por `py make_maplehits_art.py` e `py make_maplehits_font.py`. Teste: `py test_maplehits.py`
 (precisa de `pip install lupa`).
 
-Projeto de fã, sem ligação com a Nexon ou a Blizzard.
+Licença MIT (`LICENSE`), exceto as fontes `BowlbyOne-Regular.ttf` e `MapleHitsDigits.ttf`, que seguem a SIL Open Font
+License. Projeto de fã, sem ligação com a Nexon ou a Blizzard.
