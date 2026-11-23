@@ -1,0 +1,7 @@
+## Interface: 16001
+## Title: MapleHits
+## Notes: Números de dano no estilo MapleStory: dígitos em duas cores que saltam, empilham e sobem. /mh
+## SavedVariables: MapleHitsDB
+
+Art.lua
+MapleHits.lua
